@@ -2,7 +2,10 @@
 
     // import { MyButton } from 'my-component-lib';
     // import '/node_modules/my-component-lib/dist/style.css';
-    import MyButton from '@/components/MyButton.vue'
+
+    //import MyButton from '@/components/MyButton.vue'
+    //import { MyButton } from 'my-component-lib'
+    //import 'my-component-lib/dist/style.css'
 
 </script>
 
@@ -10,7 +13,7 @@
 <template>
     <div>
         <div style="padding-bottom:20px;">button test</div>
-        <MyButton>Testing</MyButton>
+        <!--MyButton>Testing</!--MyButton-->
     </div>
 </template>
 
