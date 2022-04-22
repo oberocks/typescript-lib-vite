@@ -10,7 +10,8 @@
     ".": {
       "import": "./dist/my-component-lib.es.js",
       "require": "./dist/my-component-lib.umd.js"
-    }
+    },
+    "./dist/style.css": "./dist/style.css"
   },
   "types": "./dist/types/index.d.ts",
   "scripts": {
@@ -18,9 +19,12 @@
     "build": "vite build && vue-tsc --emitDeclarationOnly && mv dist/src dist/types",
     "preserve": "vite build",
     "serve": "vite preview --port 5050",
-    "typecheck": "vue-tsc --noEmit"
+    "typecheck": "vue-tsc --noEmit",
+    "install-github-test-pkg": "npm install https://github.com/oberocks/typescript-lib-vite#master",
+    "uninstall-github-test-pkg": "npm uninstall typescript-lib-vite"
   },
   "dependencies": {
+    "my-component-lib": "github:oberocks/typescript-lib-vite#master",
     "vue": "^3.2.33"
   },
   "devDependencies": {
