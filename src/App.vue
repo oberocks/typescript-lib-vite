@@ -5,15 +5,15 @@
 
     //import MyButton from '@/components/MyButton.vue'
     //import { MyButton } from 'my-component-lib'
-    //import 'my-component-lib/dist/style.css'
+    // import 'my-component-lib/style.css'
 
 </script>
 
 
 <template>
     <div>
-        <div style="padding-bottom:20px;">button test</div>
-        <!--MyButton>Testing</!--MyButton-->
+        <div style="padding-bottom:20px; text-align:center;">BUTTON TEST</div>
+        <!--MyButton>Testing</MyButton-->
     </div>
 </template>
 
@@ -27,6 +27,17 @@
         margin: 0 auto;
         padding: 2rem;
         font-weight: normal;
+    }
+
+    .btn {
+        padding: 0.5rem 1rem;
+        background: hsl(239, 100%, 27%);
+        color: #fff;
+        border: none;
+    }
+
+    .btn:hover {
+        background: hsl(239, 100%, 49%);
     }
 
 </style>

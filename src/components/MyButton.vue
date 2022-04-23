@@ -24,8 +24,6 @@
 
     .btn {
         padding: 0.5rem 1rem;
-    }
-    .btn.primary {
         background: hsl(239, 100%, 27%);
         color: #fff;
     }
