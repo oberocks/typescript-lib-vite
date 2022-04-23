@@ -24,7 +24,6 @@
     "uninstall-github-test-pkg": "npm uninstall typescript-lib-vite"
   },
   "dependencies": {
-    "my-component-lib": "github:oberocks/typescript-lib-vite#master",
     "vue": "^3.2.33"
   },
   "devDependencies": {
